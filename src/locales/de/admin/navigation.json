@@ -1,0 +1,13 @@
+{
+  "dashboard": "Dashboard",
+  "infrastructure": "Infrastructure",
+  "customers": "Customers",
+  "sales": "Sales",
+  "support": "Support",
+  "accounting": "Accounting",
+  "signed_in_as": "Signed in as:",
+  "profile": "Profile",
+  "settings": "Settings",
+  "api_log": "API-Log",
+  "sign_out": "Sign out"
+}

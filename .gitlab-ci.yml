@@ -1,0 +1,26 @@
+stages:
+  - build
+  - deployment
+
+build-sha-image-development:
+  stage: build
+  image:
+    name: gcr.io/kaniko-project/executor:debug
+    entrypoint: [""]
+  script:
+    - echo "$BUILD_ENV_DEVELOPMENT" > "$(pwd)/.env"
+    - mkdir -p /kaniko/.docker
+    - echo "{\"auths\":{\"$CI_REGISTRY\":{\"username\":\"$CI_REGISTRY_USER\",\"password\":\"$CI_REGISTRY_PASSWORD\"}}}" > /kaniko/.docker/config.json
+    - /kaniko/executor --context $CI_PROJECT_DIR --dockerfile $CI_PROJECT_DIR/Dockerfile --destination $CI_REGISTRY_IMAGE:$CI_COMMIT_SHORT_SHA-dev
+
+deploy-development:
+  stage: deployment
+  variables:
+    UPSTREAM_COMMIT_SHA: $CI_COMMIT_SHORT_SHA-dev
+    UPGRADE_FRONTEND: "true"
+  trigger: 
+    branch: master
+    strategy: depend
+    project: argocd/vps3day
+  rules:
+    - if: $CI_COMMIT_BRANCH == 'master'

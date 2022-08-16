@@ -1,43 +1,42 @@
 {
-  "name": "servering-front",
+  "name": "vps2day-frontend",
   "version": "0.1.0",
-  "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "core-js": "^3.8.3",
-    "vue": "^3.2.13"
+    "@meforma/vue-toaster": "^1.3.0",
+    "@sentry/tracing": "^7.1.0",
+    "@sentry/vue": "^7.1.0",
+    "@tailwindcss/forms": "^0.5.1",
+    "autoprefixer": "^10.4.2",
+    "axios": "^0.25.0",
+    "cookie": "^0.4.2",
+    "dinero.js": "^1.9.1",
+    "mitt": "^3.0.0",
+    "moment": "^2.29.4",
+    "postcss": "^8.4.6",
+    "tailwindcss": "^3.0.18",
+    "vue": "^3.2.25",
+    "vue-axios": "^3.4.1",
+    "vue-i18n": "^9.2.0-beta.30",
+    "vue-router": "4",
+    "vue-star-rating": "^2.1.0",
+    "vue3-click-away": "^1.2.1",
+    "vue3-cookies": "^1.0.6",
+    "vuex": "^4.0.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.16",
-    "@babel/eslint-parser": "^7.12.16",
-    "@vue/cli-plugin-babel": "~5.0.0",
-    "@vue/cli-plugin-eslint": "~5.0.0",
-    "@vue/cli-service": "~5.0.0",
-    "eslint": "^7.32.0",
-    "eslint-plugin-vue": "^8.0.3"
+    "@vitejs/plugin-vue": "^2.0.0",
+    "less": "^4.1.2",
+    "less-loader": "^10.2.0",
+    "vite": "^2.7.2"
   },
   "eslintConfig": {
-    "root": true,
     "env": {
       "node": true
-    },
-    "extends": [
-      "plugin:vue/vue3-essential",
-      "eslint:recommended"
-    ],
-    "parserOptions": {
-      "parser": "@babel/eslint-parser"
-    },
-    "rules": {}
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead",
-    "not ie 11"
-  ]
+    }
+  }
 }

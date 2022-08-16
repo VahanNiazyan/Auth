@@ -1,0 +1,15 @@
+{
+  "primaryNavigation": {
+    "dashboard": "Dashboard",
+    "service": "Server",
+    "payment": "Guthaben",
+    "support": "Support"
+  },
+  "customerDropdown": {
+    "currentBalance": "Ihr Guthaben",
+    "signedInAs": "Angemeldet als",
+    "yourAccount": "Dein Account",
+    "support": "Support",
+    "signOut": "Abmelden"
+  }
+}

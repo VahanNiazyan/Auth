@@ -1,0 +1,15 @@
+{
+  "primaryNavigation": {
+    "dashboard": "Dashboard",
+    "service": "Server",
+    "payment": "Guthaben",
+    "support": "Support"
+  },
+  "customerDropdown": {
+    "currentBalance": "Your balance",
+    "signedInAs": "Signed in as",
+    "yourAccount": "Your account",
+    "support": "Support",
+    "signOut": "Sign out"
+  }
+}

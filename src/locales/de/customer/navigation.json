@@ -1,0 +1,12 @@
+{
+  "dashboard": "Dashboard",
+  "service": "Server",
+  "payment": "Guthaben",
+  "transactions": "Transactions",
+  "invoices": "Invoices",
+  "support": "Support",
+  "current_balance": "Aktuelles Guthaben:",
+  "sign_out": "Abmelden",
+  "settings": "Einstellungen",
+  "your_profile": "Dein Account"
+}

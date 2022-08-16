@@ -1,0 +1,15 @@
+{
+  "header_cta": "Bitte melden Sie sich an",
+  "header_sub": "lege dir einen kostenlosen Account an!",
+  "email": "E-Mail Adresse",
+  "password": "Passwort",
+  "remember_me": "Angemeldet bleiben",
+  "forgot_password": "Passwort vergessen?",
+  "sign_in": "Anmelden",
+  "legal_notice": "Impressum",
+  "privacy": "Datenschutzerklärung",
+  "login_message": "Du wurdest erfolgreich angemeldet.",
+  "email_address_verify": "Bitte bestätige deine E-Mail Adresse.",
+  "migrate_version": "Wir migrieren auf VPS2day {version}",
+  "big_news": "Große Neuigkeiten! VPS2day kommt mit neuer Technologie unter der Haube, einer besser aussehenden Benutzeroberfläche und mehr Funktionen, auf die Sie gewartet haben."
+}

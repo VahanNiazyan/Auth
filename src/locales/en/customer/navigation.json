@@ -1,0 +1,12 @@
+{
+  "dashboard": "Dashboard",
+  "service": "Server",
+  "payment": "Balance",
+  "transactions": "Transactions",
+  "invoices": "Invoices",
+  "support": "Support",
+  "current_balance": "Current balance:",
+  "sign_out": "Sign out",
+  "settings": "Settings",
+  "your_profile": "Your profile"
+}

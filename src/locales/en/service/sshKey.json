@@ -1,0 +1,26 @@
+{
+  "page_title": "SSH-Keys",
+  "add_ssh_key": "Add SSH key",
+  "added_ssh_key": "Added SSH key",
+  "added_ssh_key_text": "Your new SSH key with the fingerprint <span class='font-mono'>{fingerprint}</span> was saved successfully.",
+  "deleted_ssh_key": "SSH key deleted",
+  "deleted_ssh_key_text": "The SSH key with the name <span class='font-medium'>{name}</span> was successfully deleted.",
+  "name": "Name",
+  "fingerprint": "Fingerprint",
+  "extinguish": "Delete",
+  "create_ssh_title": "Create SSH-Key",
+  "back_to_list": "Back to the overview",
+  "import_from_github": "Import from GitHub",
+  "add_new_ssh": "Add new SSH key",
+  "add_new_ssh_text": "When installing a Linux-based server, you must provide at least one public SSH key.",
+  "public_ssh": "Public SSH key",
+  "not_valid_ssh": "It is not a valid public SSH key.",
+  "valid_ssh": "A valid public SSH key begins with either <span class='font-mono text-blue-500'>ssh-rsa</span> or <span class='font-mono text-blue-500'>ssh-ed25519</span>.",
+  "save_on_computer": "Save on computer",
+  "delete_ssh_popup_title": "Delete Ssh Key",
+  "delete_ssh_popup_text": "Are you sure you want to delete this ssh-key?",
+  "empty_state": {
+    "title": "No SSH Keys",
+    "description": "SSH keys allow secure authentication to your servers without typing a password."
+  }
+}

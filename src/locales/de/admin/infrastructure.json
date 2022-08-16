@@ -1,0 +1,31 @@
+{
+  "general": {
+    "cluster": "Cluster",
+    "region": "Region",
+    "host": "Hostsystem",
+    "hosts": "Hostsystems",
+    "image": "Image",
+    "images": "Images",
+    "status": "Status",
+    "available": "Available",
+    "unavailable": "Unavailable",
+    "amphora-targets": "Amphora Targets"
+  },
+  "secondary-nav": {
+    "regions": "Regions",
+    "cluster": "Cluster",
+    "hosts": "Hypervisors",
+    "infra-nodes": "Infrastructure Nodes",
+    "ip-pools": "IP Pools",
+    "server": "Server",
+    "images": "Images",
+    "networks": "Networks",
+    "amphorae": "Amphorae"
+  },
+  "cluster": {
+    "disable-cluster": "Disable cluster",
+    "enable-cluster": "Enable cluster",
+    "updated": "The cluster has been updated successfully.",
+    "deleted": "The cluster has been deleted successfully."
+  }
+}

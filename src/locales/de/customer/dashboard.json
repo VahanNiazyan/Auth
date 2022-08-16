@@ -1,0 +1,19 @@
+{
+  "title": "Dashboard",
+  "hello": "Guten Tag",
+  "great": "Willkommen!",
+  "getting_started": "Lade jetzt dein Konto auf und bestell' deinen ersten Server.",
+  "charge_now_long": "Jetzt Konto aufladen!",
+  "charge_now_short": "Jetzt aufladen!",
+  "available_balance": "Verfügbares Guthaben",
+  "active_servers": "Aktive Server",
+  "open_tickets": "Offene Support-Tickets",
+  "show": "Anzeigen",
+  "server_expired": "Ihr Server ist abgelaufen",
+  "server_due": "Ihr Server muss verlängert werden",
+  "banner": {
+    "currently_impersonating": "Derzeit imitieren",
+    "you_currently_customer": "Sie imitieren derzeit die Kunden-ID",
+    "end_impersonation": "Identitätswechsel beenden"
+  }
+}

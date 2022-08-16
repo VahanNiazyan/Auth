@@ -1,0 +1,53 @@
+{
+  "ticket": "Ticket",
+  "create": "Neues Support-Ticket",
+  "yourTickets": "Deine Support-Tickets",
+  "opened": "{humanReadableDiff} geöffnet",
+  "status": {
+    "waitingForSupport": "Warte auf Support",
+    "waitingForCustomer": "Warte auf Kunden",
+    "closed": "Abgeschlossen"
+  },
+  "filter": {
+    "open": "Offen",
+    "closed": "Geschlossen"
+  },
+  "emptyState": {
+    "open": {
+      "title": "Du hast keine offenen Tickets",
+      "text": "Zur Zeit hast du keine offenen Support-Tickets. Falls du ein Problem hast oder eine Frage stellen möchtest, kannst du jederzeit ein neues Ticket eröffnen.",
+      "cta": "Neues Support-Ticket erstellen"
+    },
+    "closed": {
+      "title": "Hier gibt es noch nichts zu sehen",
+      "text": "Auf dieser Seite findest du eine Liste mit abgeschlossenen Support-Tickets. Solltest du ein Problem oder eine Frage haben, kannst du jederzeit ein neues Ticket eröffnen.",
+      "cta": "Neues Support-Ticket erstellen"
+    }
+  },
+  "category": {
+    "technical": "Server & Netzwerk",
+    "billing": "Zahlungen",
+    "other": "Sonstige"
+  },
+  "rating": {
+    "modalTitle": "Bitte bewerte deine Erfahrung",
+    "modalText": "Dein Support-Ticket wurde geschlossen. Bitte bewerte deine Erfahrungen mit unserem Support-Team, damit wir unsere Service-Qualität verbessern können.",
+    "continueWithoutRating": "Ohne Bewertung fortfahren",
+    "rateSupport": "Bewertung abschicken"
+  },
+  "kindRegards": "Viele Grüße",
+  "supportDepartment": "VPS2day Support Team",
+  "writeMessage": "Neue Nachricht verfassen ...",
+  "markdownAvailable": "Du kannst Markdown verwenden, um deine Nachricht zu formatieren.",
+  "addAnswer": "Antworten",
+  "messageCreationRateLimit": "Du hast zu viele Nachrichten verfasst. Bitte versuche es später noch einmal.",
+  "empty_state": {
+    "title": "Keine Eintrittskarten",
+    "create_ticket": "Ticket erstellen"
+  },
+  "creationThrottle": {
+    "header": "",
+    "body": "",
+    "seconds": "Sekunden"
+  }
+}

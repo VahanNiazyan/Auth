@@ -1,0 +1,16 @@
+{
+  "status_creating": "Creating",
+  "status_deleting": "Deleting",
+  "status_available": "Available",
+  "status_deleting_error": "Deleting Error",
+  "status_error": "Error",
+  "restore_snapshot_modal": {
+    "title": "Restore Snapshot",
+    "description": "When proceeding, your snapshot will be restored.",
+    "confirmation": "Confirmation",
+    "confirmation_text": "Please enter the name of your server (<span class=\"font-medium\">{serverName}</span>) to confirm snapshot restore.",
+    "confirmation_description": "By clicking on \"Restore Snapshot\" we'll restore your snapshot.",
+    "please_power_off": "Please power off your server before proceeding",
+    "restore_btn": "Restore Snapshot"
+  }
+}

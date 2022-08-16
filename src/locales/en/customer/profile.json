@@ -1,0 +1,104 @@
+{
+  "page_title": "Personal Data",
+  "please_update_profile": "Please update your profile information",
+  "show": {
+    "complete": "Complete Profile",
+    "edit": "Edit Profile",
+    "welcome": "Welcome to VPS2day",
+    "welcome_message": "Before we can start, we'd like you to complete your user profile",
+    "update_profile": "Please update your profile information",
+    "edited": "Your profile has been successfully changed!",
+    "verification": {
+      "data": "Verification",
+      "form": {
+        "image": "Please upload at least one image"
+      }
+    },
+    "personal-data": {
+      "data": "Personal Data",
+      "description": "We are using this data to create invoices when you are adding credit.",
+      "optional": "Optional",
+      "form": {
+        "first_name": "First name",
+        "last_name": "Last name",
+        "address_line_1": "Street and house number",
+        "address_line_2": "Additional address line",
+        "zip": "ZIP",
+        "city": "City",
+        "company": "Company",
+        "state": "State/Province",
+        "country_id": "Country",
+        "submit": "Save"
+      }
+    },
+    "security": {
+      "data": "Password",
+      "description": "You may change your personal password at any time. Please choose a secure and unique one.",
+      "edited": "Your password has been changed successfully.",
+      "error": "Unfortunately the entered password was not correct.",
+      "form": {
+        "current_password": "Your current Password",
+        "new_password": "Your new Password",
+        "confirm_password": "Your new Password repeated",
+        "submit": "Save"
+      }
+    },
+    "second-factor": {
+      "data": "Two-Factor Authentication",
+      "error": "The verification code you\"ve entered is not valid.",
+      "disable": {
+        "success": "The second factor authentication has been disabled for your account."
+      },
+      "enable": {
+        "success": "The second factor authentication for your account has been successfully enabled."
+      }
+    },
+    "notifications": {
+      "data": "Notifications",
+      "description": "You can choose the form of notification and the reasoning behind each one."
+    }
+  },
+  "wrong_customer_data": "Intentionally providing wrong customer data may result in a suspension of your account.",
+  "two_factor": {
+    "title": "Two-factor authentication",
+    "not_activated": "Not activated",
+    "after_activation": "After activation, you need your second factor every time you register. Its use is strongly recommended.",
+    "activate": "Activate",
+    "activate_two_factor": "Activate two-factor authentication for your account",
+    "use_qr_code": "Use the QR code or the 16-digit code below to activate two-factor authentication for this site on your authenticator.<br><br> Please then confirm the correct entry by entering a two-factor code.",
+    "your_code": "Your Code",
+    "if_your_password_manager": "If your password manager cannot read QR codes, please enter <span class=\"font-mono text-gray-800\">{secondFactorSecret}</span> as TOTP secret."
+  },
+  "security": {
+    "title": "Password",
+    "enter_current_password": "To be on the safe side, please enter your current password again.",
+    "password_need_to_least": "Your new password must be at least 8 characters long."
+  },
+  "verification": {
+    "title": "Identity Verification",
+    "unverified": "Unverified",
+    "optional_verification": "This optional and voluntary verification of identity will unlock security sensitive features for your account.",
+    "start_verification": "Start Verification",
+    "why_should_verify": "Why should you perform the identity verification with VPS2day?",
+    "why_should_verify_description": "Due to a raised amount of fraudulent and abusive activity we've decided to grant several security-sensitive features only to those customers that successfully completed a KYC (know your customer) process.",
+    "when_starting_verification": "When starting the verification process you are asked to provide",
+    "picture_passport": "a picture of the <span class=\"font-medium\">front of your ID card</span>",
+    "picture_back_passport": "and a picture of the <span class=\"font-medium\">back of your ID card</span>",
+    "both_picture_back_passport": "which in both cases is placed on a <span class=\"font-medium\">piece of paper with a verification code</span> that has been written on it.",
+    "after_success": "After a successful verification of your identity, you'll get access to the following features:",
+    "realtime_provisioning": "Realtime provisioning of rDNS records <span class=\"font-medium\">without manual confirmation</span>",
+    "ability_order": "Ability to order <span class=\"font-medium\">additional IPv4 addresses</span> for your virtual servers",
+    "ability_order_ip6": "Ability to order <span class=\"font-medium\">/64 IPv6 subnets</span> for your virtual servers",
+    "all_picture_will_deleted": "Of course, all pictures you provide will be permanently deleted after the verification has been carried out.",
+    "thank_for_help": "Thank you for helping us conquer and prevent fraudulent and abusive activity at VPS2day.",
+    "your_verification_code": "Your Verification Code",
+    "place_your_id_card": "Place your ID card on a piece of paper where your personal verification code is written on (see above). Only then please take pictures of the front and the back of your ID card and upload them on this page.",
+    "please_be_aware": "Please be aware that we don't accept verification requests where the verification code is wrong or not properly visible.",
+    "in_case_your_experience": "In case you experience issues during the verification process please contact our support department.",
+    "id_card_front": "ID Card - Front Picture",
+    "upload_file": "Upload a file",
+    "upload_file_validation": "PNG or JPG up to 5MB",
+    "id_cart_back": "ID Card - Back Picture",
+    "submit_for_verification": "Submit for Verification"
+  }
+}

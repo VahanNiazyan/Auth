@@ -1,0 +1,7 @@
+{
+  "status_creating": "Erstellen",
+  "status_deleting": "Entfernen",
+  "status_available": "Verfügbar",
+  "status_deleting_error": "Löschfehler",
+  "status_error": "Fehler"
+}

@@ -1,0 +1,41 @@
+{
+  "private_network_overview_title": "Private Network Overview",
+  "search_display_text": "Displaying search results for ",
+  "create_private_network": "Create Private Network",
+  "table": {
+    "name": "Name",
+    "location": "Location",
+    "network_length": "Network",
+    "server_count": "Servers"
+  },
+  "private_network_successfully_deleted": "The Private Network has been successfully deleted.",
+  "no_private_network": "No Private Network",
+  "search_placeholder": "Search Private Network",
+  "configure_private_network": "Configure your new private network",
+  "back_to_overview": "Back to overview",
+  "select_datacenter": "Select your datacenter",
+  "select_datacenter_text": "Choose your desired location from our eight datacenters worldwide. Servers within the same datacenter can be connected using our private networks.",
+  "select_datacenter_lear_more": "Learn more about our datacenters &rarr;",
+  "datacenter_unavailable": "Temporarily Unavailable",
+  "datacenter_unavailable_text": "Due to maintenance work we currently can't accept new orders. Please try again later. We are sorry for the inconveniences this may have caused.",
+  "configure": "Private Network Configure",
+  "form": {
+    "name": "Network Name",
+    "network": "Network",
+    "network_length": "Network Length"
+  },
+  "portCreated": "The port has been successfully created!",
+  "emptyStateTitle": "No Private Networks",
+  "emptyStateBody": "Create a private network to allow internal communication between your servers.",
+  "emptyStateButtonCTA": "Create Private Network",
+  "delete_private_network_modal": {
+    "title": "Delete Private Network",
+    "description": "When proceeding, your private network will be deleted. The cancellation date of your private network.",
+    "confirmation": "Confirmation",
+    "confirmation_text": "Please enter the name of your private network (<span class=\"font-medium\">{alias}</span>) to confirm.",
+    "confirmation_note": "Please note that <span class=\"font-medium\">it is not possible</span> to prematurely cancel deleting of private network.",
+    "confirmation_description": "By clicking on \"Delete Private Network\" we'll remove it.",
+    "delete_btn": "Delete Private Network",
+    "dismiss_btn": "Dismiss"
+  }
+}

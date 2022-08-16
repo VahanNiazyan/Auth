@@ -1,0 +1,30 @@
+{
+  "type": {
+    "paymentCharge": "Guthabenaufladung",
+    "refundCharge": "Erstattung",
+    "voucherCharge": "Gutscheincode",
+    "productOrderWithdrawal": "Produktbestellung",
+    "productExtensionWithdrawal": "Serververlängerung",
+    "productAutoExtensionWithdrawal": "Automatische Serververlängerung",
+    "remoteHandsWithdrawal": "Remote-Hands",
+    "employeeCharge": "Mitarbeiteraufladung",
+    "developerCharge": "Systemaufladung für Entwickler",
+    "affiliateRewardCharge": "Affiliate-Auszahlung",
+    "affiliateRewardWithdrawal": "Rückbuchung der Affiliate-Auszahlung",
+    "otherProductOrServiceWithdrawal": "Sonstige Produkt-/Dienstleistungsbuchung",
+    "otherAdministrativeCharge": "Administrative Aufladung",
+    "otherAdministrativeWithdrawal": "Administrative Rückbuchung",
+    "runtimeExtensionRefundCharge": "Erstattung von Laufzeitverlängerung"
+  },
+  "table": {
+    "id": "ICH WÜRDE",
+    "date": "Datum",
+    "reference": "Bezug",
+    "type": "Typ",
+    "details": "Einzelheiten",
+    "amount": "Menge"
+  },
+  "no_transaction": "Keine Transaktionen",
+  "get_started_with": "Starten Sie mit VPS2day, indem Sie Ihr Konto mit Geld aufladen.",
+  "charge_balance": "Guthaben aufladen"
+}

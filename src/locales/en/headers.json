@@ -1,0 +1,18 @@
+{
+  "infrastructure": {
+    "host": {
+      "overview": "Overview",
+      "servers": "Servers",
+      "statistics": "Statistics",
+      "services": "Services",
+      "updates": "Updates",
+      "tasks": "Tasks",
+      "syslog": "Syslog"
+    },
+    "server": {
+      "overview": "Overview",
+      "statistics": "Statistics",
+      "deployments": "Deployments"
+    }
+  }
+}

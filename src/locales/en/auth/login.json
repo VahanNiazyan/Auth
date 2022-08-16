@@ -1,0 +1,15 @@
+{
+  "header_cta": "Sign in to your account",
+  "header_sub": "register your account for free!",
+  "email": "E-mail address",
+  "password": "Password",
+  "remember_me": "Remember me",
+  "forgot_password": "Forgot your password?",
+  "sign_in": "Sign in",
+  "legal_notice": "Legal Notice",
+  "privacy": "Privacy",
+  "login_message": "Successfully logged in",
+  "email_address_verify": "E-mail address verification is required",
+  "migrate_version": "We are migrating to VPS2day {version}",
+  "big_news": "Big news! VPS2day comes with new technology under the hood, nicer looking UI and more features, you've waited for."
+}

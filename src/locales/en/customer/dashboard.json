@@ -1,0 +1,19 @@
+{
+  "title": "Dashboard",
+  "hello": "Hello",
+  "great": "Great!",
+  "getting_started": "Now let's get it started. If you have any questions don't hesitate to contact our support team at any time.",
+  "charge_now_long": "Charge your balance now!",
+  "charge_now_short": "Charge now!",
+  "available_balance": "Available balance",
+  "active_servers": "Active servers",
+  "open_tickets": "Open support tickets",
+  "show": "Show",
+  "server_expired": "Your server expired",
+  "server_due": "Your server is due for extension",
+  "banner": {
+    "currently_impersonating": "Currently impersonating",
+    "you_currently_customer": "You are currently impersonating customer ID",
+    "end_impersonation": "End Impersonation"
+  }
+}

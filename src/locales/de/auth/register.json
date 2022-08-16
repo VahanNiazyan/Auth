@@ -1,0 +1,15 @@
+{
+  "header_cta": "Neuen Account erstellen",
+  "header_sub": "mit bereits bestehendem Konto anmelden.",
+  "first_name": "Vorname",
+  "last_name": "Nachname",
+  "email": "E-Mail Adresse",
+  "email_instructions": "Wir senden einen Aktivierungslink an deine E-Mail Adresse.",
+  "password": "Passwort",
+  "password_instructions": "Ein sicheres Passwort ist einzigartig und besteht aus mindestens 8 Zeichen.",
+  "password_confirmation": "Passwort bestätigen",
+  "terms": "Ich habe die <a class='text-blue-600 hover:underline' target='_blank' href=':terms'>Allgemeinen Geschäftsbedingungen (AGB)</a> und die <a class='text-blue-600 hover:underline' target='_blank' href=':privacy'>Datenschutzerklärung</a> gelesen und erkläre mich mit ihrer Geltung einverstanden.",
+  "newsletter": "Ich möchte per E-Mail über Neuigkeiten und Angebote informiert werden.",
+  "register": "Jetzt kostenlosen Account erstellen",
+  "register_successfully": "Deine Registrierung wurde erfolgreich abgeschlossen."
+}

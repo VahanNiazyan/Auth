@@ -1,0 +1,30 @@
+{
+  "type": {
+    "paymentCharge": "Credit charge",
+    "refundCharge": "Refund",
+    "voucherCharge": "Voucher code",
+    "productOrderWithdrawal": "Product order",
+    "productExtensionWithdrawal": "Server extension",
+    "productAutoExtensionWithdrawal": "Automatic server extension",
+    "remoteHandsWithdrawal": "Remote hands",
+    "employeeCharge": "Employee charge",
+    "developerCharge": "Developer charge",
+    "affiliateRewardCharge": "Affiliate reward",
+    "affiliateRewardWithdrawal": "Withdrawal of affiliate reward",
+    "otherProductOrServiceWithdrawal": "Other product or service",
+    "otherAdministrativeCharge": "Administrative charge",
+    "otherAdministrativeWithdrawal": "Administrative withdrawal",
+    "runtimeExtensionRefundCharge": "Refund of runtime extension"
+  },
+  "table": {
+    "id": "ID",
+    "date": "Date",
+    "reference": "Reference",
+    "type": "Type",
+    "details": "Details",
+    "amount": "Amount"
+  },
+  "no_transaction": "No transactions",
+  "get_started_with": "Get started with VPS2day by charging your account with money.",
+  "charge_balance": "Charge Balance"
+}

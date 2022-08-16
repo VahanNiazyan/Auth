@@ -1,0 +1,34 @@
+{
+  "previous": "&laquo; Zurück",
+  "next": "Weiter &raquo;",
+  "or": "oder",
+  "legal_notice": "Impressum",
+  "privacy": "Datenschutz",
+  "tos": "Allgemeine Geschäftsbedingungen (AGB)",
+  "language": {
+    "de": "Deutsch",
+    "en": "Englisch"
+  },
+  "back": "Zurück",
+  "delete": "Löschen",
+  "overview": "Übersicht",
+  "show": "Zeigen",
+  "create": "Hinzufügen",
+  "pronoun": "Du",
+  "cancel": "Abbrechen",
+  "save": "Speichern",
+  "search": "Suchen",
+  "submit": "Speichern",
+  "no_entries_available": "Keine Einträge vorhanden.",
+  "server_error": "Wir haben zur Zeit Probleme den Server zu erreichen. Bitte versuche es später noch einmal.",
+  "pagination": {
+    "show": "Showing",
+    "to": "to",
+    "of": "of",
+    "results": "results",
+    "previous": "Previous",
+    "next": "Next"
+  },
+  "read_more": "Weiterlesen",
+  "learn_more": "Mehr erfahren"
+}

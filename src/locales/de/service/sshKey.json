@@ -1,0 +1,25 @@
+{
+  "page_title": "SSH-Keys",
+  "add_ssh_key": "SSH-Key hinzufügen",
+  "added_ssh_key": "SSH-Key hinzugefügt",
+  "added_ssh_key_text": "Dein neuer SSH-Key mit dem Fingerprint <span class='font-mono'>{fingerprint}</span> wurde erfolgreich hinzugefügt.",
+  "deleted_ssh_key": "SSH-Key gelöscht",
+  "deleted_ssh_key_text": "Dein SSH-Key mit dem Namen <span class='font-medium'>{name}</span> wurde erfolgreich gelöscht.",
+  "name": "Name",
+  "fingerprint": "Fingerprint",
+  "extinguish": "Löschen",
+  "create_ssh_title": "SSH-Key hinzufügen",
+  "back_to_list": "Zurück zur Übersicht",
+  "import_from_github": "Aus GitHub importieren",
+  "add_new_ssh": "Add new SSH key",
+  "add_new_ssh_text": "Wenn du einen Server mit Linux-Betriebssystem installierst, kannst du einen SSH-Key hinzufügen, um eine sichere Authentifizierung zu ermöglichen.",
+  "public_ssh": "Öffentlicher SSH-Key",
+  "not_valid_ssh": "Diese Zeichenkette ist kein gültiger SSH-Key.",
+  "valid_ssh": "Ein gültiger SSH-Key beginnt entweder mit <span class='font-mono text-blue-500'>ssh-rsa</span> oder mit <span class='font-mono text-blue-500'>ssh-ed25519</span>.",
+  "delete_ssh_popup_title": "SSH-Key löschen",
+  "delete_ssh_popup_text": "Bist du sicher, dass du diesen SSH-Key löschen willst? Bestehende Systeme sind hiervon nicht betroffen.",
+  "empty_state": {
+    "title": "Keine SSH-Schlüssel",
+    "description": "SSH-Schlüssel ermöglichen eine sichere Authentifizierung bei Ihren Servern, ohne ein Passwort einzugeben."
+  }
+}

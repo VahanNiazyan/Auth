@@ -1,0 +1,104 @@
+{
+  "page_title": "Persönliche Daten",
+  "please_update_profile": "Bitte aktualisieren Sie Ihre Profilinformationen",
+  "show": {
+    "complete": "Profil vervollständigen",
+    "edit": "Profil bearbeiten",
+    "welcome": "Willkommen bei VPS2day",
+    "welcome_message": "Bevor Sie Ihr Guthaben aufladen können, musst du dein Profil vervollständigen.",
+    "update_profile": "Please update your profile information",
+    "edited": "Dein Profil wurde erfolgreich aktualisiert.",
+    "verification": {
+      "data": "Erweiterte Verifikation",
+      "form": {
+        "image": "Bitte lade mindestens ein Bild hoch."
+      }
+    },
+    "personal-data": {
+      "data": "Persönliche Daten",
+      "description": "Wir benutzen die von dir angegebenen Daten, um dich zu identifizieren und dir die bestmögliche Nutzung unserer Dienste zu ermöglichen. Die nachfolgenden Daten werden ebenfalls für die Rechnungsstellung verwendet.",
+      "optional": "Optional",
+      "form": {
+        "first_name": "Vorname",
+        "last_name": "Nachname",
+        "address_line_1": "Straße und Hausnummer",
+        "address_line_2": "Adresszusatz",
+        "zip": "Postleitzahl",
+        "city": "Stadt",
+        "company": "Gesellschaft",
+        "state": "Bundesland",
+        "country_id": "Land",
+        "submit": "Speichern"
+      }
+    },
+    "security": {
+      "data": "Passwort",
+      "description": "Du kannst dein Passwort jederzeit ändern. Bitte nutze ein einzigartiges und sicheres Passwort mit mindestens 8 Zeichen.",
+      "edited": "Dein Passwort wurde erfolgreich geändert.",
+      "error": "Das eingegebene Passwort ist ungültig.",
+      "form": {
+        "current_password": "Aktuelles Passwort",
+        "new_password": "Neues Passwort",
+        "confirm_password": "Neues Password bestätigen",
+        "submit": "Speichern"
+      }
+    },
+    "second-factor": {
+      "data": "Zwei-Faktor Authentifizierung",
+      "error": "Der eingegebene Code ist ungültig.",
+      "disable": {
+        "success": "Die Zwei-Faktor Authentifizierung deines Accounts wurde erfolgreich deaktiviert."
+      },
+      "enable": {
+        "success": "Die Zwei-Faktor Authentifizierung deines Accounts wurde erfolgreich aktiviert."
+      }
+    },
+    "notifications": {
+      "data": "Benachrichtigungen",
+      "description": "You can choose the form of notification and the reasoning behind each one."
+    }
+  },
+  "wrong_customer_data": "Die absichtliche Angabe falscher Kundendaten kann zur Sperrung Ihres Kontos führen.",
+  "two_factor": {
+    "title": "Zwei-Faktor-Authentifizierung",
+    "not_activated": "Nicht aktiviert",
+    "after_activation": "Nach der Freischaltung benötigen Sie bei jeder Anmeldung Ihren zweiten Faktor. Seine Verwendung wird dringend empfohlen.",
+    "activate": "aktivieren Sie",
+    "activate_two_factor": "Aktivieren Sie die Zwei-Faktor-Authentifizierung für Ihr Konto",
+    "use_qr_code": "Verwenden Sie den unten stehenden QR-Code oder den 16-stelligen Code, um die Zwei-Faktor-Authentifizierung für diese Seite auf Ihrem Authenticator zu aktivieren.<br><br> Bitte bestätigen Sie anschließend die korrekte Eingabe durch Eingabe eines Zwei-Faktor-Codes.",
+    "your_code": "Dein Code",
+    "if_your_password_manager": "Wenn Ihr Passwort-Manager QR-Codes nicht lesen kann, geben Sie bitte <span class=\"font-mono text-gray-800\">{secondFactorSecret}</span> als TOTP-Geheimnis ein."
+  },
+  "security": {
+    "title": "Passwort",
+    "enter_current_password": "Bitte geben Sie zur Sicherheit noch einmal Ihr aktuelles Passwort ein.",
+    "password_need_to_least": "Ihr neues Passwort muss mindestens 8 Zeichen lang sein."
+  },
+  "verification": {
+    "title": "Identitätsprüfung",
+    "unverified": "Unbestätigt",
+    "optional_verification": "Diese optionale und freiwillige Überprüfung der Identität schaltet sicherheitsrelevante Funktionen für Ihr Konto frei.",
+    "start_verification": "Bestätigung starten",
+    "why_should_verify": "Warum sollten Sie die Identitätsprüfung mit VPS2day durchführen?",
+    "why_should_verify_description": "Aufgrund einer erhöhten Anzahl betrügerischer und missbräuchlicher Aktivitäten haben wir uns entschieden, einige sicherheitsrelevante Funktionen nur solchen Kunden zu gewähren, die einen KYC-Prozess (Know Your Customer) erfolgreich abgeschlossen haben.",
+    "when_starting_verification": "Beim Starten des Verifizierungsprozesses werden Sie aufgefordert, diese anzugeben",
+    "picture_passport": "ein Bild der <span class=\"font-medium\">Vorderseite Ihres Personalausweises</span>",
+    "picture_back_passport": "und ein Bild der <span class=\"font-medium\">Rückseite Ihres Personalausweises</span>",
+    "both_picture_back_passport": "die in beiden Fällen auf einem <span class=\"font-medium\">Blatt mit einem darauf geschriebenen Bestätigungscode</span> angebracht ist.",
+    "after_success": "Nach erfolgreicher Überprüfung Ihrer Identität erhalten Sie Zugriff auf die folgenden Funktionen:",
+    "realtime_provisioning": "Echtzeitbereitstellung von rDNS-Einträgen <span class=\"font-medium\">ohne manuelle Bestätigung</span>",
+    "ability_order": "Möglichkeit, <span class=\"font-medium\">zusätzliche IPv4-Adressen</span> für Ihre virtuellen Server zu bestellen",
+    "ability_order_ip6": "Möglichkeit, <span class=\"font-medium\">/64 IPv6-Subnetze</span> für Ihre virtuellen Server zu bestellen",
+    "all_picture_will_deleted": "Selbstverständlich werden alle von Ihnen bereitgestellten Bilder nach erfolgter Verifizierung dauerhaft gelöscht.",
+    "thank_for_help": "Vielen Dank, dass Sie uns helfen, betrügerische und missbräuchliche Aktivitäten bei VPS2day zu erkennen und zu verhindern.",
+    "your_verification_code": "Ihr Bestätigungscode",
+    "place_your_id_card": "Legen Sie Ihren Personalausweis auf ein Blatt Papier, auf dem Ihr persönlicher Verifizierungscode steht (siehe oben). Erst dann fotografieren Sie bitte die Vorder- und Rückseite Ihres Personalausweises und laden diese auf dieser Seite hoch.",
+    "please_be_aware": "Bitte beachten Sie, dass wir keine Verifizierungsanfragen akzeptieren, bei denen der Verifizierungscode falsch oder nicht richtig sichtbar ist.",
+    "in_case_your_experience": "Falls während des Verifizierungsprozesses Probleme auftreten, wenden Sie sich bitte an unsere Support-Abteilung.",
+    "id_card_front": "ID-Karte – Frontbild",
+    "upload_file": "Eine Datei hochladen",
+    "upload_file_validation": "PNG oder JPG bis zu 5 MB",
+    "id_cart_back": "ID-Karte – Bild auf der Rückseite",
+    "submit_for_verification": "Submit for Verification"
+  }
+}

@@ -1,0 +1,134 @@
+@import "assets/css/font";
+
+@tailwind base;
+@tailwind components;
+
+// Desktop Header Navigation Bar
+.top-nav-item {
+@apply px-3 py-2 rounded-md text-sm font-medium text-blue-200;
+
+  &:focus {
+  @apply outline-none text-white bg-blue-600;
+  }
+
+  &:hover {
+  @apply text-white bg-blue-600;
+  }
+
+  &-active {
+  @apply text-white bg-blue-800;
+
+    &:hover {
+    @apply bg-blue-800;
+    }
+  }
+}
+
+// Desktop Header Navigation Bar
+.customer-top-nav-item {
+@apply px-3 py-2 rounded-md text-sm font-medium text-gray-200;
+
+  &:focus {
+  @apply outline-none text-white bg-gray-700;
+  }
+
+  &:hover {
+  @apply text-white bg-gray-700;
+  }
+
+  &-active {
+  @apply text-white bg-gray-900;
+  }
+}
+
+// Desktop Secondary Navigation Bar
+.secondary-nav-item {
+@apply px-3 py-2 font-medium text-sm leading-5 rounded-md text-gray-500;
+
+  &:focus {
+  @apply outline-none bg-blue-50 text-blue-600;
+  }
+
+  &:hover {
+  @apply text-gray-700;
+  }
+
+  &-active {
+  @apply text-blue-700 bg-blue-100;
+
+    &:focus {
+    @apply bg-blue-200 text-blue-800;
+    }
+  }
+}
+
+// Desktop Tertiary Navigation Bar
+.tertiary-nav-item {
+@apply inline-flex items-center py-4 px-1 border-b-2 border-transparent font-medium text-sm leading-5 text-gray-500;
+
+  &:hover {
+   @apply text-gray-700 border-gray-300;
+  }
+
+  &:focus {
+  @apply outline-none text-gray-700 border-gray-300;
+  }
+}
+
+.tertiary-nav-item-active {
+@apply inline-flex items-center py-4 px-1 border-b-2 border-blue-500 font-medium text-sm leading-5 text-blue-600;
+
+  &:focus {
+    @appy outline-none text-blue-800 border-blue-700;
+  }
+
+  &:hover {
+    @apply text-blue-600 border-blue-500;
+  }
+}
+
+// Hide cloak'ed elements in order to avoid "zapping" JavaScript contents
+[v-cloak], [x-cloak] {
+  display: none;
+}
+
+.vue-notification-group {
+  // Re-style the 3rd party notification library
+  top: 15px !important;
+}
+
+@tailwind utilities;
+
+.rounded-modal {
+  @apply rounded-lg !important;
+}
+
+.shim-blue {
+  position: relative;
+  overflow: hidden;
+  background-color: rgba(28, 100, 242, 1);
+}
+
+.shim-blue::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translateX(-100%);
+  background-image: linear-gradient(
+          90deg,
+          rgba(233, 233, 233, 1) 0,
+          rgba(233, 233, 233, 0.9) 50%,
+          rgba(233, 233, 233, 0.8) 100%
+  );
+  animation: shimmer 2.5s ease-out infinite;
+  content: "";
+}
+
+@keyframes shimmer {
+  100% {
+    transform: translateX(0%);
+    opacity: 0;
+  }
+}

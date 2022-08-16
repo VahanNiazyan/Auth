@@ -1,0 +1,19 @@
+{
+  "secondary-nav": {
+    "customers": "Customers",
+    "ip-history": "IP History",
+    "information-requests": "Information Requests"
+  },
+  "ip-history": {
+    "search": "IP Search",
+    "search-results": "Search results"
+  },
+  "information-request": {
+    "legal-reasons": {
+      "100stpo": "§ 100j Abs. 2, Abs. 1 Satz 1 StPO i.V.m. § 113 Abs. 1 Satz 3 TKG",
+      "county-law": "Ermächtigungsgesetze der Bundesländer (z.B. PAG)",
+      "admin-assistance": "Amtshilfe deutscher Ermittlungsbehörden",
+      "other": "Andere"
+    }
+  }
+}

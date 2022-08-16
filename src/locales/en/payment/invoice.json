@@ -1,0 +1,13 @@
+{
+  "table": {
+    "invoice": "Invoice",
+    "provider": "Provider",
+    "amount": "Amount",
+    "status": "Status",
+    "date": "Date"
+  },
+  "paid": "Paid",
+  "no_invoice": "No invoices",
+  "get_started_with": "Get started with VPS2day by charging your account with money.",
+  "charge_balance": "Charge balance"
+}
